@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Mercado</title>
+    <link rel="Stylesheet" href="Carrinho.css">
+</head>
+<body>
+<div class="central-text">
+    <h1>Bem-vindo ao Super Mercado</h1>
+<div class="carreto">
+    <p>Escolha quais produtos você deseja colocar em seu</p> 🛒
+    </div>
+</div>
+    <!-- Carrinho onde os produtos serão exibidos -->
+ <div id="carrinho">
+        <h2>🛒 Carrinho</h2>
+        <ul id="lista-carrinho"></ul>
+        <div id="total"></div>
+</div>
+    <!-- Produtos -->
+<section>
+    <div class="move-basico">
+            <div class="basico">
+            <p>Produtos básicos:</p>
+            <div>Arroz</div>
+            <button class="mercadinho" data-nome="arroz" data-tipo="basico" data-preco="30">Selecionar</button>
+            <div>Feijão</div>
+            <button class="mercadinho" data-nome="feijao" data-tipo="basico" data-preco="8">Selecionar</button>
+            <div>Macarrão</div>
+            <button class="mercadinho" data-nome="macarrao" data-tipo="basico" data-preco="7">Selecionar</button>
+            <div>Café</div>
+            <button class="mercadinho" data-nome="cafe" data-tipo="basico" data-preco="15">Selecionar</button>
+            <div>Farinha</div>
+            <button class="mercadinho" data-nome="farinha" data-tipo="basico" data-preco="8">Selecionar</button>
+            <div>Açúcar</div>
+            <button class="mercadinho" data-nome="acucar" data-tipo="basico" data-preco="4">Selecionar</button>
+            <div>Molho</div>
+            <button class="mercadinho" data-nome="molho" data-tipo="basico" data-preco="2">Selecionar</button>
+            <div>Óleo</div>
+            <button class="mercadinho" data-nome="oleo" data-tipo="basico" data-preco="7">Selecionar</button>
+        </div>   
+        <div class="hortifrute">
+            <p>Hotifrute:</p>
+            <div>Banana</div>
+            <button class="mercadinho" data-nome="banana" data-tipo="hortifrute" data-preco="5">Selecionar</button>
+            <div>Maçã</div>
+            <button class="mercadinho" data-nome="maçã " data-tipo="hortifrute" data-preco="9">Selecionar</button>
+            <div>Limão</div>
+            <button class="mercadinho" data-nome="limao" data-tipo="hortifrute" data-preco="2">Selecionar</button>
+            <div>Tomate</div>
+            <button class="mercadinho" data-nome="tomate" data-tipo="hortifrute" data-preco="4">Selecionar</button>
+            <div>Batata</div>
+            <button class="mercadinho" data-nome="batata" data-tipo="hortifrute" data-preco="6">Selecionar</button>
+            <div>Cebola</div>
+            <button class="mercadinho" data-nome="cebola" data-tipo="hortifrute" data-preco="5">Selecionar</button>
+            <div>Alho</div>
+            <button class="mercadinho" data-nome="alho" data-tipo="hortifrute" data-preco="22">Selecionar</button>
+            <div>Cenoura</div>
+            <button class="mercadinho" data-nome="cenoura" data-tipo="hortifrute" data-preco="4">Selecionar</button>
+        </div>
+    </div>
+    <div class="secundario">
+        <div class="bombo">
+            <p>Doceria:</p>
+            <div>Bombom</div>
+            <button class="mercadinho" data-nome="bombom" data-tipo="doces" data-preco="2">Selecionar</button>
+            <div>Barra de Chocolate</div>
+            <button class="mercadinho" data-nome="barra-chocolate" data-tipo="doces" data-preco="6">Selecionar</button>
+            <div>Nutella</div>
+            <button class="mercadinho" data-nome="nutella" data-tipo="doces" data-preco="40">Selecionar</button>
+            <div>kinder-bueno</div>
+            <button class="mercadinho" data-nome="kinder-bueno" data-tipo="doces" data-preco="9">Selecionar</button>
+            <div>Sucrilhos</div>
+            <button class="mercadinho" data-nome="sucrilhos" data-tipo="doces" data-preco="18">Selecionar</button>
+        </div>
+        <div class="higiene">
+            <p>Produtos de Higiene:</p>
+            <div>Sabonete</div>
+            <button class="mercadinho" data-nome="sabonete" data-tipo="higiene" data-preco="2">Selecionar</button>
+            <div>Papel Higiênico</div>
+            <button class="mercadinho" data-nome="papel" data-tipo="higiene" data-preco="12">Selecionar</button>
+            <div>Shampoo</div>
+            <button class="mercadinho" data-nome="shampow" data-tipo="higiene" data-preco="11">Selecionar</button>
+            <div>Condicionador</div>
+            <button class="mercadinho" data-nome="condicionador" data-tipo="higiene" data-preco="19">Selecionar</button>
+            <div>Detergente</div>
+            <button class="mercadinho" data-nome="detergente" data-tipo="higiene" data-preco="2">Selecionar</button>
+        </div>
+    </div>
+    <div class="terceiro">
+        <div class="bebidas">
+            <p>Bebidas:</p>
+            <div>Cerveja</div>
+            <button class="mercadinho" data-nome="cerveja" data-tipo="bebida" data-preco="3">Selecionar</button>
+            <div>Água</div>
+            <button class="mercadinho" data-nome="agua" data-tipo="bebida" data-preco="1">Selecionar</button>
+            <div>Refrigerante</div>
+            <button class="mercadinho" data-nome="refrigerante" data-tipo="bebida" data-preco="5">Selecionar</button>
+            <div>Aquarios-Fresh</div>
+            <button class="mercadinho" data-nome="Aquarios-Fresh" data-tipo="bebida" data-preco="6">Selecionar</button>
+            <div>Coca-cola lata</div>
+            <button class="mercadinho" data-nome="Coca-colaLata" data-tipo="bebida" data-preco="4">Selecionar</button>
+        </div>
+        <div class="misturas">
+            <p>Misturas:</p>
+            <div>Carne</div>
+            <button class="mercadinho" data-nome="carne" data-tipo="misturas" data-preco="30">Selecionar</button>
+            <div>Frango</div>
+            <button class="mercadinho" data-nome="frango" data-tipo="misturas" data-preco="20">Selecionar</button>
+            <div>Linguiça</div>
+            <button class="mercadinho" data-nome="linguica" data-tipo="misturas" data-preco="15">Selecionar</button>
+            <div>Peixe</div>
+            <button class="mercadinho" data-nome="peixe" data-tipo="misturas" data-preco="40">Selecionar</button>
+            <div>Ovo</div>
+            <button class="mercadinho" data-nome="ovo" data-tipo="misturas" data-preco="15">Selecionar</button>
+        </div>
+    </div>    
+    </section>
+
+    <script src="Carrinho.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 10px;
+    background-image: linear-gradient(45deg,red,blue,yellow);
+
+}
+input{
+    padding: 10px;
+    width: 250px;
+    background: rgb(214, 205, 205);
+
+}
+
+button{
+    padding: 10px 15px;
+    cursor: pointer;
+    background: rgb(10, 211, 10);
+    color: beige;
+}
+p{
+    color: antiquewhite;
+}

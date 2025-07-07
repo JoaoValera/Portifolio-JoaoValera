@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Meu Portifolio</title>
+ <!--aqui eu estou criando motores de busca para os navegadores começarem a me conhecer -->
+    <meta name="description" content="Portifolio de João , dev místico">
+    <meta name="author" content="João Vitor">
+    <meta name="keyword" content="João Vitor , Portifólio, Desenvolvedor , HTML , CSS , JavaScript, Phyton">
+    <meta name="email" content="joao.vitor.bibiano@hotmail.com">
+
+    <link rel="stylesheet" href="CV.css">
+</head>
+<body>
+    <h1>Welcome to my world</h1>
+    <header class="inicio">
+        <div class="avatar-container">
+     <img src="MagoJoao.jpg" alt="Avatar místico do João" class="avatar">
+     </div>
+  <img src="html-5_732212.png" alt="HTML" class="icon icon-html">
+  <img src="java-script_1199124.png" alt="JS" class="icon icon-js">
+  <img src="css_1199113.png" alt="CSS" class="icon icon-css">
+  <img src="python_3098090.png" alt="Python" class="icon icon-python">
+  <img src="programing_15484303.png" alt="Node.js" class="icon icon-nodeJs">
+    
+    </header>
+    <nav class="navegacao">
+      <div class="card">
+        <ul>
+            <li><a href="#" class="link" data-alvo="Sobre">Sobre mim</a></li>
+            <li><a href="#" class="link" data-alvo="Formacao">Formação</a></li>
+            <li><a href="#" class="link" data-alvo="Projetos">Projetos</a></li>
+            <li><a href="#" class="link" data-alvo="Contato">Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="secao" data-secao="Sobre">
+      <h2>Olá! Me chamo João Vitor, tenho 28 anos e sou casado há 2 anos. Atualmente moro no interior de São Paulo e estudo JavaScript há cerca de um ano. Nesse tempo, desenvolvi alguns projetos pessoais para aprimorar minhas habilidades como desenvolvedor.
+Além disso, estou cursando faculdade, onde estudo Banco de Dados e Python, o que tem ampliado minha base técnica e visão sobre desenvolvimento.
+Tenho um grande sonho: trabalhar em uma startup canadense e construir minha carreira como desenvolvedor no Canadá.
+Sou uma pessoa muito dedicada e persistente. Passo a maior parte do tempo estudando e resolvendo erros, pois acredito que é nos desafios que mais evoluímos.
+Ainda estou distante do nível de conhecimento que desejo alcançar, mas também estou muito além de onde comecei — e sigo firme nessa jornada de aprendizado constante.</h2>        
+    </section>
+    <section class="secao" data-secao="Formacao">
+<h2>Minhas Formações e Cursos
+Tenho ensino médio completo e um nível intermediário de inglês — ainda em desenvolvimento, mas já consigo me comunicar, estudar materiais técnicos e seguir documentações na língua.
+Ao longo da minha trajetória, busquei formações complementares para fortalecer meu perfil profissional. Entre elas:
+Curso de Informática Básica
+Curso de HTML5, CSS e JavaScript
+Curso de Python e Banco de Dados (em andamento)
+Curso de Operador de Empilhadeira
+Curso de Brigada de Incêndio
+Atualmente, estou cursando faculdade, com início em fevereiro de 2025, onde tenho estudado com mais profundidade Banco de Dados e Python, além de desenvolver projetos práticos que me ajudam a consolidar o aprendizado.</h2>
+    </section>
+    <section class="secao" data-secao="Projetos">
+      <h2>Meus projetos</h2>
+    <div class="container-projetos">
+      <div class="card-projetos"> 
+        <h3>Carrinho de Compras Mercadinho</h3>
+        <iframe src="./TesteCarrinho/index.html"></iframe>
+      </div>
+      <div class="card-projetos"> 
+        <h3>Verificador de Media </h3>
+        <iframe src="./Media.Js/index.html"></iframe>
+      </div>
+      <div class="card-projetos"> 
+        <h3>Brincadeira para Casal</h3>
+        <iframe src="./Brincadeira.Amor/index.html"></iframe>
+      </div>
+    </div>  
+    </section>
+    <section class="secao" data-secao="Contato">
+     <div class="card-contato">
+      <form>
+       <label for="Nome">Nome</label>
+       <input type="text" placeholder="Digite seu Nome aqui" id="Nome" >
+       <label for="email" >E-mail</label>
+       <input type="email" placeholder="Digite seu E-mail aqui" id="email">
+       <label for="mensagem" >Mensagem</label>
+       <textarea id="mensagem" name="mensagem" rows="4" placeholder="Digite sua mensagem de Texto aqui "></textarea>
+       <button type="submit">Enviar</button>
+      </form>
+     </div>  
+    </section>
+    <footer>
+<footer>
+</footer>
+ <p>© 2025 João Vitor. Todos os direitos reservados.</p>
+  <p>
+    <a href="https://www.linkedin.com/in/joaovalera?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="linkedin-link">
+      <img src="linkedin_794388.png" alt="LinkedIn" class="linkedin-icon">
+      Meu LinkedIn
+    </a>
+  </p>
+    </footer>
+    <script src="Cv.js"></script>
+</body>
+</html>

@@ -1,0 +1,264 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#carrinho{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 300px    ;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    z-index: 1000;
+    display: none;
+    
+
+}
+#lista-carrinho{
+    list-style: none;
+    padding: 0px;
+}
+#lista-carrinho{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+#lista-carrinho button{
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#lista-carrinho button:hover {
+    background: darkred;
+  }
+  body {
+ background-image: url(freepik__the-style-is-candid-image-photography-with-natural__22906.jpg);
+ background-size: cover;
+ 
+
+ width: 100%;
+ height: 100vh; /* A altura vai ocupar 100% da altura da tela */
+}
+ 
+  
+  .central-text{
+   text-align: center;
+  }
+  h1{
+   font-size: 40px;
+   font-weight: bold;
+   background-image: linear-gradient(to right, red, yellow, blue); /* Gradiente de cores */
+   -webkit-background-clip: text; /* Aplica o fundo somente no texto */
+   color: transparent;
+   background-clip: none;
+  }
+  p{
+    font-size: 25px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, red, yellow, purple); /* Gradiente de cores */
+    -webkit-background-clip: text; /* Aplica o fundo somente no texto */
+    color: transparent;
+    background-clip: none;
+  }
+  .carreto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    background-clip: none; 
+  }
+ .move-basico{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 85%;
+    gap: 10px;
+   
+
+ }
+ .basico, .hortifrute{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.4); /* Fundo escuro semi-transparente */
+  color: white; /* Deixa o texto legível */
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.5), 
+              -4px -4px 10px rgba(255, 255, 255, 0.1); /* Sombra suave */
+  backdrop-filter: blur(6px); /* Efeito de vidro fosco */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  z-index: 5;
+  font-weight: bold;
+  background-image: linear-gradient(to right, red, purple); /* Gradiente de cores */
+  -webkit-background-clip: text; /* Aplica o fundo somente no texto */
+  color: transparent;
+  background-clip: none;
+
+ }
+ .hortifrute{
+    width: 21%;
+    font-weight: bold;
+    background-image: linear-gradient(to right, red, yellow, purple); /* Gradiente de cores */
+    -webkit-background-clip: text; /* Aplica o fundo somente no texto */
+    color: transparent;
+    background-clip: none;
+
+
+ }
+
+ .basico:hover , .hortifrute:hover{
+    transform: translateY(-5px);
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.6), 
+              -6px -6px 12px rgba(255, 255, 255, 0.2);
+}
+
+.basico div ,.hortifrute div{
+    border: 1px solid white;
+    padding: 5px;
+    text-align: center;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+.secundario{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 83%;
+    gap: 10px;
+    margin: 15px;
+}
+
+.bombo, .higiene{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.4); /* Fundo escuro semi-transparente */
+  color: white; /* Deixa o texto legível */
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.5), 
+              -4px -4px 10px rgba(255, 255, 255, 0.1); /* Sombra suave */
+  backdrop-filter: blur(6px); /* Efeito de vidro fosco */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  z-index: 5;
+  font-weight: bold;
+  background-image: linear-gradient(to right, red, purple); /* Gradiente de cores */
+  -webkit-background-clip: text; /* Aplica o fundo somente no texto */
+  color: transparent;
+  background-clip: none;
+}
+.bombo{
+    width: 20%;
+    font-weight: bold;
+    background-image: linear-gradient(to right, red, yellow, purple); /* Gradiente de cores */
+    -webkit-background-clip: text; /* Aplica o fundo somente no texto */
+    color: transparent;
+    background-clip: none;
+
+}
+.bombo:hover , .higiene:hover{
+    transform: translateY(-5px);
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.6), 
+              -6px -6px 12px rgba(255, 255, 255, 0.2);
+}
+
+.bombo div ,.higiene div{
+    border: 1px solid white;
+    padding: 5px;
+    text-align: center;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+.terceiro{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 83%;
+    gap: 10px;
+    margin: 15px;
+}
+.bebidas, .misturas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.4); /* Fundo escuro semi-transparente */
+  color: white; /* Deixa o texto legível */
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.5), 
+              -4px -4px 10px rgba(255, 255, 255, 0.1); /* Sombra suave */
+  backdrop-filter: blur(6px); /* Efeito de vidro fosco */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  z-index: 5;
+  font-weight: bold;
+  background-image: linear-gradient(to right, red, purple); /* Gradiente de cores */
+  -webkit-background-clip: text; /* Aplica o fundo somente no texto */
+  color: transparent;
+  background-clip: none;
+}
+.bebidas{
+    width: 21%;
+}
+.misturas{
+    width: 25% ;
+    font-weight: bold;
+    background-image: linear-gradient(to right, red, yellow, purple); /* Gradiente de cores */
+    -webkit-background-clip: text; /* Aplica o fundo somente no texto */
+    color: transparent;
+    background-clip: none;
+    height: 65vh;
+}
+.bebidas:hover , .misturas:hover{
+    transform: translateY(-5px);
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.6), 
+              -6px -6px 12px rgba(255, 255, 255, 0.2);
+}
+.bebidas div ,.misturas div{
+    border: 1px solid white;
+    padding: 5px;
+    text-align: center;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+button{
+    font-weight: bold;
+    background-image: linear-gradient(to right, red,gray); /* Gradiente de cores */
+    -webkit-background-clip: text; /* Aplica o fundo somente no texto */
+    color: transparent;
+    background-clip: none;
+    border-radius: 20% ;
+    background: linear-gradient(white,deeppink);
+    color: black;
+}
+
+
+
+
+
+
+
+ 

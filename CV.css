@@ -295,3 +295,46 @@ footer {
     width: 20px;
     height: 20px;
 }
+@media(max-width: 768px){
+    body h1{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .card{
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .card-projetos{
+        margin-right: 0;
+        width: 90%;
+    }
+
+    .avatar-container{
+        width: 180px;
+        height: 180px;
+    }
+
+    
+    .container-pojetos{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icon{
+        display: none;
+    }
+    .card-contato{
+        width: 95%;
+        padding: 1rem;
+    }
+
+    footer{
+        font-size: 0.9rem;
+    }
+}
